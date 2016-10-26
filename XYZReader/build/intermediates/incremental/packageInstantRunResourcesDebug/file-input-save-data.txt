@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 26 01:35:41 CDT 2016
+#Wed Oct 26 01:59:51 CDT 2016
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\switch_thumb_material_dark.xml
 118.set=ANDROID_RESOURCE

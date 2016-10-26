@@ -5,7 +5,7 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="184977321664731"
+    timestamp="186427566257806"
     token="-3996558150552300158"
     verifier="COMPATIBLE" >
 
@@ -50,7 +50,14 @@
             type="DEX" />
     </build>
     <build
-        timestamp="184977321664731"
+        timestamp="186280125781118"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\186280125781118\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="186427566257806"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
