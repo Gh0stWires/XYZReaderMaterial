@@ -5,19 +5,19 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="445011344224692"
+    timestamp="448587464713446"
     token="-3996558150552300158"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="583" />
+        duration="575" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="19" />
     <task
         name="verifier"
         duration="3" />
@@ -27,14 +27,21 @@
         type="DEX" />
 
     <build
-        timestamp="444635426747858"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="447936041334969"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="445011344224692"
+        timestamp="448074529980535"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="448587464713446"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"

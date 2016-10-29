@@ -144,7 +144,7 @@ public class ArticleDetailActivity extends AppCompatActivity
             super.setPrimaryItem(container, position, object);
             ArticleDetailFragment fragment = (ArticleDetailFragment) object;
             if (fragment != null) {
-                mSelectedItemUpButtonFloor = fragment.getUpButtonFloor();
+                //mSelectedItemUpButtonFloor = fragment.getUpButtonFloor();
                 //updateUpButtonPosition();
             }
         }

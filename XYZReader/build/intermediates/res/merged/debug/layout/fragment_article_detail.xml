@@ -2,8 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:layout_height="match_parent">
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
@@ -34,14 +33,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:fillViewport="true"
         android:nestedScrollingEnabled="true">
 
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:overScrollMode="always">
+            android:layout_height="wrap_content">
 
 
 
@@ -58,7 +54,7 @@
                 android:textSize="@dimen/detail_body_text_size" />
 
 
-        </LinearLayout>
+        </FrameLayout>
     </ScrollView>
 
 
