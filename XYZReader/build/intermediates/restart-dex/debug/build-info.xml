@@ -5,63 +5,40 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="186427566257806"
+    timestamp="445011344224692"
     token="-3996558150552300158"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="583" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="27" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="175553897412015"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="444635426747858"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="183858035934658"
+        timestamp="445011344224692"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="186280125781118"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\186280125781118\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="186427566257806"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
