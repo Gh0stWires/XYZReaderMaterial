@@ -14,6 +14,7 @@ import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
@@ -132,6 +133,11 @@ public class ArticleDetailActivity extends AppCompatActivity
             //mSelectedItemUpButtonFloor = fragment.getUpButtonFloor();
             //updateUpButtonPosition();
         }
+    }
+
+    public void back(View view) {
+        onBackPressed();
+        Toast.makeText(this,"FUCK",Toast.LENGTH_LONG).show();
     }
 
 
