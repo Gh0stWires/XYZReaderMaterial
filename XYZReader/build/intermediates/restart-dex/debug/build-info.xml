@@ -5,44 +5,39 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="448587464713446"
+    timestamp="100947083282879"
     token="-3996558150552300158"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="575" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="19" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
-
-    <artifact
-        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
+        duration="0" />
 
     <build
-        timestamp="447936041334969"
+        timestamp="99201964006780"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="448074529980535"
+        timestamp="100947083282879"
+        verifier="COLD_SWAP_REQUESTED" />
+    <build
+        timestamp="491134641717518"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-    </build>
-    <build
-        timestamp="448587464713446"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
             type="DEX" />
