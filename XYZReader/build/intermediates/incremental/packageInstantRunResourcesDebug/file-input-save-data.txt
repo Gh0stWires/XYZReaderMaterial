@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Nov 02 17:59:32 CDT 2016
+#Wed Nov 02 18:23:01 CDT 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_appbar_state_list_animator.xml

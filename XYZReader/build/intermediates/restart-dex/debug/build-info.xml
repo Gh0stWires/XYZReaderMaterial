@@ -5,26 +5,22 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="341281451813698"
+    timestamp="342834333661440"
     token="-3996558150552300158"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="780" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="532" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="73" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
-
-    <artifact
-        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        duration="0" />
 
     <build
         timestamp="339871443954914"
@@ -34,12 +30,123 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="340187858214218"
-        verifier="CLASS_ADDED" >
+        timestamp="342409263558737"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_e7a2628bc7788929ccda8790172a249ead869944\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-25.0.0_28e11b508e82dcd9c988e126c63b3f460c97055f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_365b31dc65c16c5765479f291cf439ec033f26a4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_08addd58664d7371cd2751e9403745dbdbc4b38a\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_0ddaba50b401d6a4ef95e2ec5ea3399c2629b8a7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_9a087d3f1384e7b3e03a52a0e6f415772d25fd37\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_1989d2434449f79c976b6beb5b2b8c14062d3fef\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_9355d3d1d417e20ee146e8d4c182872b3326850c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.castorflex.smoothprogressbar-library-1.1.0_2d23eb5eada86b23501b610fb25bb97728c1dd0f\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_bcaa37a0c8b06e5460a4d846df79195cd197effb\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_a429a46246925848bc11d72bfe01dc59ec7cbdf5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_2b51a2dd337d37f5fbec9a6b57d00b9f772da7bc\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6b6051f81c11f3629aca4c9f23124da8bb2a897e\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_252771d55a4a82731b9dbd1e443fdf57fb8d8bd8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_1e87d2cfa3ca6d9fa7a7373581a12c835ccb30c9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_ad3c55af76e5c19608d6194264bd1ee6d37258d9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_59bb528381bae2af45e7ff139368dbb9f6edec7d\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4c6f750a9de3418ed2c2e48059b85aef1e3ef9c\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_d2e8c54332095d07dbdcce4fd63960630066cc91\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_374ae417ed7d14284facdef30ab22fc8d0cb668e\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2a9e61e5c3e7b49e94275bc933a39947575fe0e4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e1cfda12916e7cbcf1963bc0333292f4e4467538\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_4a318b0629afd96c7fe8738681ffe82347ca5919\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_75c0769cd7ed01e0f6d5942614204e108f48b3d1\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.0.0_a133cadce8fa565a0434dad13ed21aea85b78885\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_9538671343e36b2cefab824636ab1aaa24a765e4\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd81e20e64befeb4d61096ea55ec3d8f1d7d085a\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
             type="DEX" />
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_1cec790d3ffd88e8385728d141eb4d042ef2ba6e\classes.dex"
+            type="DEX" />
     </build>
+    <build
+        timestamp="342834333661440"
+        verifier="COLD_SWAP_REQUESTED" />
     <build
         timestamp="491134641717518"
         verifier="COLD_SWAP_REQUESTED" >
