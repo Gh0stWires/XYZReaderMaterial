@@ -2041,7 +2041,7 @@
                     "startOffset": 20543,
                     "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 20941
+                    "endOffset": 20957
                 },
                 "from": {
                     "file": "C:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml",
@@ -2051,7 +2051,7 @@
                         "startOffset": 59,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 463
+                        "endOffset": 479
                     }
                 }
             },
@@ -2059,20 +2059,20 @@
                 "to": {
                     "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 20946,
+                    "startOffset": 20962,
                     "endLine": 294,
                     "endColumn": 12,
-                    "endOffset": 21301
+                    "endOffset": 21377
                 },
                 "from": {
                     "file": "C:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 471,
+                        "startOffset": 487,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 832
+                        "endOffset": 908
                     }
                 }
             },
@@ -2080,10 +2080,10 @@
                 "to": {
                     "startLine": 295,
                     "startColumn": 4,
-                    "startOffset": 21306,
+                    "startOffset": 21382,
                     "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 21476
+                    "endOffset": 21552
                 },
                 "from": {
                     "file": "C:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-v21\\values-v21.xml",
@@ -2101,10 +2101,10 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 21481,
+                    "startOffset": 21557,
                     "endLine": 302,
                     "endColumn": 12,
-                    "endOffset": 21817
+                    "endOffset": 21893
                 },
                 "from": {
                     "file": "C:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\values-v21\\values-v21.xml",
@@ -2122,10 +2122,10 @@
                 "to": {
                     "startLine": 303,
                     "startColumn": 4,
-                    "startOffset": 21822,
+                    "startOffset": 21898,
                     "endLine": 305,
                     "endColumn": 12,
-                    "endOffset": 22011
+                    "endOffset": 22087
                 },
                 "from": {
                     "file": "C:\\Users\\ghost\\Desktop\\AndroidProdjects\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\values-v21\\values-v21.xml",
