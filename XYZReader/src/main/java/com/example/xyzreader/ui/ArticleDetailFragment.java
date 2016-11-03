@@ -2,7 +2,10 @@ package com.example.xyzreader.ui;
 
 import android.app.Fragment;
 import android.app.LoaderManager;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.Loader;
+import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -10,6 +13,8 @@ import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.text.Html;
@@ -27,6 +32,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -113,6 +121,7 @@ public class ArticleDetailFragment extends Fragment implements
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
+        fabShare();
 
         //((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         //((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -125,11 +134,53 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         bindViews();
+        fabShare();
         updateStatusBar();
         return mRootView;
     }
 
 
+    private void fabShare(){
+        mRootView.findViewById(R.id.share_fab).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ShareSub();
+            }
+        });
+    }
+
+    private void ShareSub() {
+        final Intent i = new Intent(Intent.ACTION_SEND);
+        i.setType("text/plain");
+        i.putExtra(Intent.EXTRA_TEXT,"text");
+
+        final List<ResolveInfo> activities = getActivity().getPackageManager().queryIntentActivities (i, 0);
+
+        List<String> appNames = new ArrayList<String>();
+        for (ResolveInfo info : activities) {
+            appNames.add(info.loadLabel(getActivity().getPackageManager()).toString());
+        }
+
+        AlertDialog.Builder builder = null;
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+            builder = new AlertDialog.Builder(getContext());
+        }
+        builder.setTitle("Complete Action using...");
+        builder.setItems(appNames.toArray(new CharSequence[appNames.size()]), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int item) {
+                ResolveInfo info = activities.get(item);
+                Snackbar snackbar = Snackbar.make(mRootView.findViewById(R.id.cord),"You shared",Snackbar.LENGTH_LONG);
+                snackbar.show();
+
+
+                // start the selected activity
+                i.setPackage(info.activityInfo.packageName);
+                //startActivity(i);
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
 
     private void updateStatusBar() {
         int color = 0;
@@ -205,12 +256,12 @@ public class ArticleDetailFragment extends Fragment implements
 
                         }
                     });
-        } else {
+        } /*else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
             bylineView.setText("N/A" );
             bodyView.setText("N/A");
-        }
+        }*/
     }
 
     @Override

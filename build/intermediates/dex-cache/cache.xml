@@ -57,15 +57,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="df72c35bdfc790424f190e52c94b1570f61eb0b7">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4c6f750a9de3418ed2c2e48059b85aef1e3ef9c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,30 +66,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\ghost\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_1e87d2cfa3ca6d9fa7a7373581a12c835ccb30c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
         <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2a9e61e5c3e7b49e94275bc933a39947575fe0e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ghost\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7052283359001bb108753cb0583a887d3bf94c82">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_1cec790d3ffd88e8385728d141eb4d042ef2ba6e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,15 +102,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="b5a5f1a225bbd6222ad05b7ecd7ee651206ff3e3">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd81e20e64befeb4d61096ea55ec3d8f1d7d085a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -151,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="6a9d28d924c3bd83257a3d269de7ed977ffb36fe">
+        sha1="55ce33a26b438ffe1c8c885c957cce054c5cd49c">
         <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4c6f750a9de3418ed2c2e48059b85aef1e3ef9c\classes.dex" />
     </item>
     <item
@@ -232,17 +196,8 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="f53f06f55c7d7239eaae5864cb6e11f3351ae18d">
+        sha1="8418e21d4ed85b56d6b22f11204773b388a69b25">
         <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd81e20e64befeb4d61096ea55ec3d8f1d7d085a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ghost\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="7052283359001bb108753cb0583a887d3bf94c82">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.1.2_1cec790d3ffd88e8385728d141eb4d042ef2ba6e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -252,24 +207,6 @@
         revision="23.0.3"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
         <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_365b31dc65c16c5765479f291cf439ec033f26a4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\libs\volley.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_ad3c55af76e5c19608d6194264bd1ee6d37258d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ghost\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_1e87d2cfa3ca6d9fa7a7373581a12c835ccb30c9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -300,39 +237,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b5a5f1a225bbd6222ad05b7ecd7ee651206ff3e3">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_dd81e20e64befeb4d61096ea55ec3d8f1d7d085a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="de596a8559a683cbc3aa6e023b3f50d4deb143b2">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c4c6f750a9de3418ed2c2e48059b85aef1e3ef9c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
         <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_4a318b0629afd96c7fe8738681ffe82347ca5919\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\libs\volley.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
-        <dex dex="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\2\volley_ad3c55af76e5c19608d6194264bd1ee6d37258d9\classes.dex" />
     </item>
     <item
         is-multidex="true"
