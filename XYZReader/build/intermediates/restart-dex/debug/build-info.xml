@@ -5,26 +5,26 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="347225520914586"
+    timestamp="347506404945585"
     token="-3996558150552300158"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1391" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="614" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="84" />
+        duration="0" />
     <task
         name="verifier"
-        duration="21" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
         timestamp="346678399867818"

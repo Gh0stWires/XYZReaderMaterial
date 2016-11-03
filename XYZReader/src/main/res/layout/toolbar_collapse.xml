@@ -29,6 +29,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_arrow_back"
             android:id="@+id/arrow_back"
+            android:background="@null"
             android:fitsSystemWindows="true" />
 
         </android.support.v7.widget.Toolbar>
