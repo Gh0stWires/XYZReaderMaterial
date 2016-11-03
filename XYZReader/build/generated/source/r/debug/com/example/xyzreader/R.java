@@ -2917,6 +2917,7 @@ containing a value of this type.
         public static final int alertTitle=0x7f0d0052;
         public static final int all=0x7f0d0034;
         public static final int always=0x7f0d0038;
+        public static final int arrow_back=0x7f0d00a2;
         public static final int article_body=0x7f0d0087;
         public static final int article_byline=0x7f0d007a;
         public static final int article_subtitle=0x7f0d0089;
@@ -2993,7 +2994,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0d0007;
         public static final int radio=0x7f0d005d;
         public static final int recycler_view=0x7f0d0077;
-        public static final int refresh=0x7f0d00a2;
+        public static final int refresh=0x7f0d00a3;
         public static final int right=0x7f0d002b;
         public static final int right_icon=0x7f0d0099;
         public static final int right_side=0x7f0d0094;

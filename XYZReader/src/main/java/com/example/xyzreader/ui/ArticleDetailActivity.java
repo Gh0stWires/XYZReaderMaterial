@@ -133,7 +133,7 @@ public class ArticleDetailActivity extends AppCompatActivity
             //updateUpButtonPosition();
         }
     }
-    
+
 
 
     private class MyPagerAdapter extends FragmentStatePagerAdapter {

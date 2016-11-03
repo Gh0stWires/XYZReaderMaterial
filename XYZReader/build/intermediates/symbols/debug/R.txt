@@ -755,6 +755,7 @@ int id add 0x7f0d001c
 int id alertTitle 0x7f0d0052
 int id all 0x7f0d0034
 int id always 0x7f0d0038
+int id arrow_back 0x7f0d00a2
 int id article_body 0x7f0d0087
 int id article_byline 0x7f0d007a
 int id article_subtitle 0x7f0d0089
@@ -831,7 +832,7 @@ int id progress_circular 0x7f0d0006
 int id progress_horizontal 0x7f0d0007
 int id radio 0x7f0d005d
 int id recycler_view 0x7f0d0077
-int id refresh 0x7f0d00a2
+int id refresh 0x7f0d00a3
 int id right 0x7f0d002b
 int id right_icon 0x7f0d0099
 int id right_side 0x7f0d0094

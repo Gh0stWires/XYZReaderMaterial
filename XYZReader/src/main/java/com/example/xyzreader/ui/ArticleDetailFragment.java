@@ -20,6 +20,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -116,7 +117,13 @@ public class ArticleDetailFragment extends Fragment implements
 
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //ImageButton imageButton = (ImageButton) mRootView.findViewById(R.id.arrow_back);
+        ImageButton imageButton = (ImageButton) mRootView.findViewById(R.id.arrow_back);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().onNavigateUp();
+            }
+        });
 
         bindViews();
         updateStatusBar();
