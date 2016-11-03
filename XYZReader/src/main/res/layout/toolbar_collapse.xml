@@ -5,7 +5,7 @@
     android:id="@+id/collapsing_toolbar_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:contentScrim="@color/theme_primary"
+    app:contentScrim="@color/primary"
     app:layout_scrollFlags="scroll|exitUntilCollapsed"
     tools:showIn="@layout/fragment_article_detail">
 

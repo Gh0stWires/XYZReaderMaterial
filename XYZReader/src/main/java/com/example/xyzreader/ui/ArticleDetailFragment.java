@@ -122,9 +122,6 @@ public class ArticleDetailFragment extends Fragment implements
 
         mStatusBarColorDrawable = new ColorDrawable(0);
         fabShare();
-
-        //((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        //((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ImageButton imageButton = (ImageButton) mRootView.findViewById(R.id.arrow_back);
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -134,7 +131,6 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         bindViews();
-        fabShare();
         updateStatusBar();
         return mRootView;
     }

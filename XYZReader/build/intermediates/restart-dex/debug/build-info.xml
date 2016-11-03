@@ -5,73 +5,61 @@
     density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="357689173188488"
+    timestamp="361612570078169"
     token="-3996558150552300158"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="664" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="711" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="45" />
+        duration="0" />
     <task
         name="verifier"
-        duration="7" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="355303494069965"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="359807853456025"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="357435506914782"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="360337042762294"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\360337042762294\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="360380989637533"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\360380989637533\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="360588248606184"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\360588248606184\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="361612570078169"
+        verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="357577244186339"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\357577244186339\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="357615379362192"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\builds\debug\357615379362192\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="357689173188488"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\ghost\Desktop\AndroidProdjects\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
